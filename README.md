@@ -1,1 +1,2 @@
-For complete tutorial you can visit my website https://camellabs.com/
+# WinPosPointVerifoneAPI
+Windows service API Rest for pos point Verifone
