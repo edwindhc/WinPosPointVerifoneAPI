@@ -1279,27 +1279,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Edwin\\.nuget\\packages\\": {}
+    "C:\\Users\\WindowsPC001\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Edwin\\Documents\\cshard\\dotnet-csharp\\restservice\\restservice\\restservice.csproj",
+      "projectUniqueName": "C:\\Users\\WindowsPC001\\Documents\\WinPosPointVerifoneAPI\\restservice\\restservice.csproj",
       "projectName": "restservice",
-      "projectPath": "C:\\Users\\Edwin\\Documents\\cshard\\dotnet-csharp\\restservice\\restservice\\restservice.csproj",
-      "packagesPath": "C:\\Users\\Edwin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Edwin\\Documents\\cshard\\dotnet-csharp\\restservice\\restservice\\obj\\",
+      "projectPath": "C:\\Users\\WindowsPC001\\Documents\\WinPosPointVerifoneAPI\\restservice\\restservice.csproj",
+      "packagesPath": "C:\\Users\\WindowsPC001\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WindowsPC001\\Documents\\WinPosPointVerifoneAPI\\restservice\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\WindowsPC001\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net461"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

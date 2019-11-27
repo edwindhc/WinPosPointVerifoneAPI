@@ -30,7 +30,7 @@ namespace restservice
                 posi.Amount = ammount * 100.0;
                 posi.ClientApplicationName = "restservice";
                 posi.ClientApplicationVersion = "3.0";
-                posi.ServerHostName = "192.168.0.20";
+                posi.ServerHostName = "192.168.7.155";
                 posi.ServerPortNumber = short.Parse("10676");
                 posi.EcrCardTransactionReferenceNr = String.Format("{0:00}", DateTime.Now.Hour)
                                                            + String.Format("{0:00}", DateTime.Now.Minute)
