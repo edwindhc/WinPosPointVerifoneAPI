@@ -1,0 +1,6 @@
+Operation status: failed - Amount: 100 26/11/2019 6:56:25 p. m.
+Operation status: success - Transaction Number: 29 - Amount: 100 Timestamp 26/11/2019 7:02:26 p. m.
+Operation status: failed - Amount: 100 Timestamp 26/11/2019 7:08:07 p. m.
+Operation status: success - Transaction Number: 31 - Amount: 100 Timestamp 26/11/2019 7:15:27 p. m.
+Operation status: success - Transaction Number: 32 - Amount: 100 Timestamp 26/11/2019 7:17:01 p. m.
+Operation status: failed - Amount: 100 Timestamp 26/11/2019 7:33:02 p. m.
