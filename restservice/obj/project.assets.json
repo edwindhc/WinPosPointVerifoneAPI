@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
+      "Json.Net/1.0.18": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -26,6 +35,15 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Diagnostics.EventLog/4.5.0": {
@@ -266,6 +284,15 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win": {
+      "Json.Net/1.0.18": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -280,6 +307,15 @@
         },
         "runtime": {
           "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Diagnostics.EventLog/4.5.0": {
@@ -458,6 +494,15 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win-x64": {
+      "Json.Net/1.0.18": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -472,6 +517,15 @@
         },
         "runtime": {
           "lib/net461/Microsoft.Win32.Registry.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Diagnostics.EventLog/4.5.0": {
@@ -650,6 +704,15 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win-x86": {
+      "Json.Net/1.0.18": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -664,6 +727,15 @@
         },
         "runtime": {
           "lib/net461/Microsoft.Win32.Registry.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Diagnostics.EventLog/4.5.0": {
@@ -843,6 +915,18 @@
     }
   },
   "libraries": {
+    "Json.Net/1.0.18": {
+      "sha512": "LeHX1l1FbTeg5C6rvx19qE/OLrPM7ggmlMBJgu08bcMn9anbE0SEF3BXwhUrio8/f0445XJnAaE5gmhqRCEuzw==",
+      "type": "package",
+      "path": "json.net/1.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "json.net.1.0.18.nupkg.sha512",
+        "json.net.nuspec",
+        "lib/netstandard2.0/Json.Net.dll"
+      ]
+    },
     "Microsoft.Win32.Registry/4.5.0": {
       "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "type": "package",
@@ -881,6 +965,37 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "System.Diagnostics.EventLog/4.5.0": {
@@ -1272,32 +1387,36 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.1": [
+      "Json.Net >= 1.0.18",
       "Microsoft.Win32.Registry >= 4.5.0",
+      "Newtonsoft.Json >= 12.0.3",
       "System.Net.Http >= 4.3.4",
       "System.ServiceProcess.ServiceController >= 4.5.0",
       "Topshelf >= 4.2.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WindowsPC001\\.nuget\\packages\\": {}
+    "C:\\Users\\Edwin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WindowsPC001\\Documents\\WinPosPointVerifoneAPI\\restservice\\restservice.csproj",
+      "projectUniqueName": "C:\\Users\\Edwin\\Documents\\cshard\\dotnet-csharp\\restservice\\restservice\\restservice.csproj",
       "projectName": "restservice",
-      "projectPath": "C:\\Users\\WindowsPC001\\Documents\\WinPosPointVerifoneAPI\\restservice\\restservice.csproj",
-      "packagesPath": "C:\\Users\\WindowsPC001\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WindowsPC001\\Documents\\WinPosPointVerifoneAPI\\restservice\\obj\\",
+      "projectPath": "C:\\Users\\Edwin\\Documents\\cshard\\dotnet-csharp\\restservice\\restservice\\restservice.csproj",
+      "packagesPath": "C:\\Users\\Edwin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Edwin\\Documents\\cshard\\dotnet-csharp\\restservice\\restservice\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\WindowsPC001\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net461"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1309,9 +1428,17 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "Json.Net": {
+            "target": "Package",
+            "version": "[1.0.18, )"
+          },
           "Microsoft.Win32.Registry": {
             "target": "Package",
             "version": "[4.5.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
           },
           "System.Net.Http": {
             "target": "Package",
